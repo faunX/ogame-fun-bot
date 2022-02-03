@@ -1,0 +1,13 @@
+{
+  "name": "ogame-fun-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "expedition": "testcafe chrome ./core/expedition/expedition.js",
+    "gatherRss": "testcafe chrome ./core/gatherRss/gatherRss.js",
+    "test": "testcafe chrome test.js"
+  },
+  "dependencies": {
+    "cli-progress": "^3.10.0"
+  }
+}
